@@ -1,0 +1,9 @@
+Date,UserId,Client_Type,Chat_Conversations,Credits_Used,Overage_Cap,Overage_Credits_Used,Overage_Enabled,ProfileId,Subscription_Tier,Total_Messages,New_User,User_Email,auto_messages
+2026-06-25,"397ee418-20a1-703d-9031-4c3a273fa8df",KIRO_CLI,2,53.13451318325041,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,81,false,"manish.bhasin@cevo.com.au",81
+2026-06-25,"49aec4b8-90d1-70be-8d22-d3dd5f136dbb",KIRO_CLI,1,1.7900051507462686,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,15,false,"scott.scovell@cevo.com.au",15
+2026-06-25,"a93e0438-2031-7074-27c2-b2d99689c4df",KIRO_CLI,1,28.667407577280265,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,97,false,"ramya.ts@cevo.com.au",97
+2026-06-25,"b96e1478-90f1-7086-fc25-a6e5a6d3b928",KIRO_CLI,6,25.048488721393035,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,137,false,"warren.abundo@cevo.com.au",137
+2026-06-25,"c95eb4b8-00f1-70a3-1a37-7672e96ebe2a",KIRO_CLI,3,79.86289095174129,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,85,false,"yin.zhang@cevo.com.au",85
+2026-06-25,"c99e8478-d0b1-7032-f4be-ff8e3c2d5019",KIRO_CLI,3,26.422232186567165,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,89,false,"kade.hampson@cevo.com.au",89
+2026-06-25,"c9ceb448-5051-708f-4e8e-64445997341a",KIRO_CLI,2,13.681039049253732,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,35,false,"gokul.venugopal@cevo.com.au",35
+2026-06-25,"f9cef498-9081-704e-4d35-4cbdbcaad2e8",KIRO_CLI,2,18.82246876368159,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,77,false,"ian.ng@cevo.com.au",77

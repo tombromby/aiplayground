@@ -1,0 +1,3 @@
+Date,UserId,Client_Type,Chat_Conversations,Credits_Used,Overage_Cap,Overage_Credits_Used,Overage_Enabled,ProfileId,Subscription_Tier,Total_Messages,New_User,User_Email,auto_messages,claude_sonnet_4.6_messages
+2026-06-25,"491e5478-d071-7011-1cde-e003767a0751",PLUGIN,1,15.654790177941322,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,64,false,"reynaldi.hadianto@cevo.com.au",0,64
+2026-06-25,"49aec4b8-90d1-70be-8d22-d3dd5f136dbb",PLUGIN,2,3.295486204326153,10000.0,0.0,false,"arn:aws:codewhisperer:us-east-1:282248574218:profile/MN4VWG4M9GUY",PRO,21,false,"scott.scovell@cevo.com.au",21,0
