@@ -24,7 +24,7 @@ S3_PREFIX = os.getenv(
 AWS_ACCOUNT_ID = os.getenv("AWS_ACCOUNT_ID", "282248574218")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
-# Map the raw Client_Type values to friendly channel names
+# Map the raw Client_Type values to friendly channel names.
 CHANNEL_LABELS = {
     "KIRO_IDE": "IDE",
     "KIRO_CLI": "CLI",
