@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BUCKET_NAME = os.getenv("S3_BUCKET_NAME", "cevo-qdev-pro-activity-us-east-1")
+BUCKET_NAME = os.getenv("S3_BUCKET_NAME", "")
 S3_PREFIX = os.getenv(
     "S3_PREFIX",
     "activity/AWSLogs/282248574218/KiroLogs/user_report/us-east-1",

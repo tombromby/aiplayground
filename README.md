@@ -5,7 +5,7 @@ Reads Kiro daily usage reports from S3 and displays a dashboard for tracking cre
 ## Prerequisites
 
 - Python 3.11+
-- AWS credentials configured (via `~/.aws/credentials`, SSO, or environment variables) with read access to the `cevo-qdev-pro-activity-us-east-1` bucket
+- AWS credentials configured (via `~/.aws/credentials`, SSO, or environment variables) with read access to the S3 bucket configured in `.env`
 
 ## Setup
 
@@ -28,7 +28,7 @@ Opens at http://localhost:8501
 
 Reports are CSV files stored at:
 ```
-s3://cevo-qdev-pro-activity-us-east-1/activity/AWSLogs/{account}/KiroLogs/user_report/us-east-1/{YYYY}/{MM}/{DD}/00/{CHANNEL}_{account}_user_report_{YYYYMMDD}0000.csv
+s3://{bucket}/{prefix}/{YYYY}/{MM}/{DD}/00/{CHANNEL}_{account}_user_report_{YYYYMMDD}0000.csv
 ```
 
 Channels: `KIRO_IDE`, `KIRO_CLI`, `PLUGIN`
