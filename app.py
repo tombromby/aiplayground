@@ -155,6 +155,19 @@ with tab_kiro:
         fig.update_layout(xaxis_tickangle=-45)
         st.plotly_chart(fig, use_container_width=True)
 
+        # --- All users ranked by credits ---
+        st.subheader("All Users by Credits Used")
+        all_users_credits = (
+            df.groupby("User")["Credits_Used"]
+            .sum()
+            .sort_values(ascending=False)
+            .reset_index()
+        )
+        all_users_credits.index = range(1, len(all_users_credits) + 1)
+        all_users_credits.columns = ["User", "Credits Used"]
+        all_users_credits["Credits Used"] = all_users_credits["Credits Used"].map("{:,.2f}".format)
+        st.dataframe(all_users_credits, use_container_width=True)
+
         # --- Messages breakdown ---
         st.subheader("Messages by User")
         user_messages = (
