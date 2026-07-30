@@ -118,8 +118,8 @@ def load_cur_data(billing_period: str) -> pd.DataFrame:
         df = _load_parquet_from_s3(billing_period)
         if not df.empty:
             return df
-    except Exception as e:
-        st.toast(f"S3 load failed, using local file: {e}", icon="⚠️")
+    except Exception:
+        pass
 
     # Fallback to local
     return _load_parquet_local()
